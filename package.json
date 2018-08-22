@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "6.2.2"
+    "node": "8.11.3",
+    "npm": "6.3.0"
   },
   "author": "Rakesh Katpalli",
   "license": "ISC",
