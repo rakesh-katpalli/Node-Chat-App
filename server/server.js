@@ -24,7 +24,7 @@ io.on('connection', (socket)=> {
         console.log('createMessage', message);
         //Emits to every single connection
         io.emit('newMessage', generateMessage(message.from, message.text));
-        callback('This is for the server');
+        callback();
     });
 
     socket.on('createLocationMessage', (coords) => {
